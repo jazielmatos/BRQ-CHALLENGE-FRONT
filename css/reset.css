@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&family=Roboto:wght@700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    z-index: 1;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+
+    --font-color: #838383;
+    --white: #F1F1F1;
+    --field-color: #DEECED80;
+    --label-color: #838383BF;
+    --button-color: #0CDAC3;
+    --container-color: rgba(255, 255, 255, 0.90);
+    --field-font-color: #324156;
+
+    --box-shadow: 0px 4px 4px 2px #0000001A;
+
+    --input-height: 5.0rem;
+    --label-line-height: 2.3rem;
+    --label-font-size: 2.0rem;
+    --label-font-weight: 700;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+li {
+    list-style-type: none;
+}
